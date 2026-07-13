@@ -300,7 +300,7 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
   }
 
   .container {
-    width: min(calc(100% - 32px), var(--max));
+    width: min(calc(100% - 40px), var(--max));
   }
 
   .site-header {
@@ -546,3 +546,5 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
     overflow-wrap: break-word;
   }
 }
+
+
