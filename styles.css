@@ -602,3 +602,30 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
     border-bottom: 0;
   }
 }
+
+
+/* SAFARI MOBILE MENU COMPATIBILITY */
+@media (max-width: 640px) {
+  .menu-button {
+    position: relative;
+    z-index: 50;
+    min-width: 44px;
+    min-height: 44px;
+    margin: 0;
+    padding: 0 4px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--ink);
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  .site-nav.is-open {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
