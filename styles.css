@@ -177,9 +177,9 @@ time { color: var(--accent-dark); font-size: .82rem; font-weight: 800; }
 .methods-grid h3 { margin-bottom: 10px; font-size: .76rem; letter-spacing: .11em; text-transform: uppercase; }
 .methods-grid p { margin: 0; color: var(--muted); }
 
-.contact-section { padding: 100px 0; background: var(--ink); color: var(--paper); }
-.contact-layout h2 { max-width: 930px; margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.7rem, 6vw, 5.6rem); line-height: .98; font-weight: 400; letter-spacing: -.045em; }
-.contact-details { display: flex; flex-wrap: wrap; gap: 24px 40px; margin-top: 48px; color: #d7d9d8; font-size: .88rem; }
+.contact-section { padding: 56px 0; background: var(--ink); color: var(--paper); }
+.contact-layout h2 { max-width: 930px; margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.7rem, 3vw, 2.4rem); line-height: 1.1; font-weight: 400; letter-spacing: -.045em; }
+.contact-details { display: flex; flex-wrap: wrap; gap: 16px 40px; margin-top: 26px; color: #d7d9d8; font-size: .88rem; }
 footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1px solid #313b43; font-size: .78rem; }
 .footer-inner { display: flex; justify-content: space-between; gap: 24px; }
 
@@ -286,7 +286,7 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
   }
 
   .contact-section {
-    padding: 76px 0;
+    padding: 44px 0;
   }
 }
 
@@ -458,13 +458,13 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
   }
 
   .contact-layout h2 {
-    font-size: clamp(2.25rem, 12vw, 3.35rem);
-    line-height: 1;
+    font-size: clamp(1.6rem, 7vw, 2rem);
+    line-height: 1.12;
   }
 
   .contact-details {
     display: block;
-    margin-top: 34px;
+    margin-top: 20px;
   }
 
   .contact-details > * {
@@ -651,3 +651,6 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
   .paper-body .paper-figure { margin-top: 4px; max-width: none; }
 }
 .methods-grid a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+.cv-note { margin: 28px 0 0; color: var(--muted); font-size: .9rem; }
+.cv-note a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
