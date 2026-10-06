@@ -164,6 +164,7 @@ dd {
 .featured { position: relative; }
 .featured::before { content: ""; position: absolute; left: -28px; top: 4px; bottom: 54px; width: 3px; background: var(--accent); }
 .status-line { margin-top: 22px; color: var(--accent-dark); font-size: .8rem; font-weight: 800; letter-spacing: .025em; }
+.status-line a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 .experience-group + .experience-group { margin-top: 66px; }
 .experience-group > h3 { margin-bottom: 18px; font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; }
