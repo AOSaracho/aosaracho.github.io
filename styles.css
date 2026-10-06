@@ -643,3 +643,7 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
     font-size: .8rem;
   }
 }
+
+.paper-figure { margin: 26px 0 0; max-width: 460px; }
+.paper-figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); background: #fff; }
+.paper-figure figcaption { margin-top: 10px; color: var(--muted); font-size: .82rem; line-height: 1.5; }
